@@ -1,0 +1,68 @@
+html,
+body,
+header,
+
+.jarallax {
+    height: 100%;
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #FF7AA2 !important;
+    }
+
+    .navbar {
+        box-shadow: 0 2px 5px 0 #FF7AA2, 0 2px 10px 0 #FF7AA2 !important;
+    }
+}
+
+.blockquote.b-reverse {
+
+    padding-right: 1rem;
+    padding-left: 0;
+    text-align: right;
+    border-right: .25rem solid #FF7AA2;
+    border-left: 0;
+}
+
+
+.text-typing p {
+    margin: 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 4s steps(22, end) forwards,
+    blink .75s step-end infinite;
+}
+
+@keyframes typing {
+    0% {
+        width: 0%
+    }
+
+    100% {
+        width: 100%
+    }
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        border-right: 2px solid transparent;
+    }
+
+    50% {
+        border-right: 2px solid #222;
+    }
+}
+
+@media screen and (max-width: 400px) and (max-width: 992px) {
+    header {
+        background: #FF7AA2 !important;
+    }
+}
+
+
+footer {
+    background: #FF7AA2!important;
+}

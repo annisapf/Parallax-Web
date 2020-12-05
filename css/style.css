@@ -58,12 +58,13 @@ header,
 }
 
 @media screen and (max-width: 400px) and (max-width: 992px) {
-    header {
+    header, footer {
         background: #FF7AA2 !important;
     }
 }
 
 
 footer {
+   
     background: #FF7AA2!important;
 }
